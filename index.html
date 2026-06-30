@@ -1,9 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+  <nav>
+    <div class="bg-sky-600 w-[90%] max-w-[840px] rounded-b-lg shadow-xl shadow-cyan-600/50 text-white mx-auto py-3 flex justify-evenly font-medium">
+      <a href="index.html" class="underline font-bold text-amber-400 underline-offset-4">Home</a>
+      <a href="favorites.html" class="hover:underline hover:font-bold underline-offset-4">Favorites</a>
+      <a href="gallery.html" class="hover:underline hover:font-bold underline-offset-4">Gallery</a>
+      <a href="contact.html" class="hover:underline hover:font-bold underline-offset-4">Contact</a>
+    </div>
+  </nav>
+  <main class="mx-auto max-w-[720px] p-4 mt-8">
+
+    <div class="mt-4 bg-white shadow-xl p-4 flex flex-col md:flex-row items-center gap-4 rounded-lg border-b border-neutral-100">
+      <img src="./img/pro.jpg" class="w-48 rounded-full border-4 border-neutral-200" alt="">
+      <div>
+        <h1 class="text-3xl font-semibold">คเชนทร์ชัย ใจกล้า</h1>
+        <p class="mt-2 text-neutral-500 hidden md:block">
+          สวัสดีครับ ผมชื่อ <b>"อันดา"</b> หรือที่เพื่อน ๆ หลาย ๆ คนจะเรียกว่า
+          <b>"คนใต้"</b>
+          <br />ปัจจุบันกำลังเป็นนักศึกษาชั้นปีที่ 2 ณ คณะวิศวกรรมศาสตร์ สาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเชียงใหม่
+          <br /><br /><span class="text-sky-700 font-semibold text-lg">ยินดีที่ได้รู้จักกันนะครับ!</span>
+        </p>
+      </div>
+    </div>
+
+    <hr class="my-8" />
+
+    <h2 class="text-center text-2xl font-semibold">ทักษะและความสามารถต่าง ๆ</h2>
+
+    <div
+      class="mt-4 flex items-center gap-0 rounded-xl border border-neutral-200 bg-white overflow-hidden">
+      <div class="flex-shrink-0 hidden md:block">
+        <img src="./img/webdev.jpg" class="h-32 w-32 object-cover"
+          alt="การเขียนโปรแกรม">
+      </div>
+
+      <div class="px-5 py-4">
+        <div class="mb-1">
+          <p class="text-xl text-center md:text-left md:text-lg font-semibold text-neutral-800 tracking-tight">ด้านการเขียนโปรแกรม</p>
+        </div>
+        <p class="text-center md:text-left text-sm text-neutral-500 leading-relaxed line-clamp-3">
+          กระผมสามารถเขียนเว็บแอพ โดยใช้ HTML CSS JS React(NextJS) รวมทั้ง
+          Backend ด้วย express.js
+          <span class="text-neutral-400 italic">[แต่จะถนัดไปทาง Frontend มากกว่า]</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-4 flex items-center gap-0 rounded-xl border border-neutral-200 bg-white overflow-hidden">
+      <div class="px-5 py-4 w-full">
+        <div class="mb-1">
+          <p class="text-xl text-center md:text-left md:text-lg font-semibold text-neutral-800 tracking-tight">ด้านดนตรี</p>
+        </div>
+        <p class="text-center md:text-left text-neutral-500 leading-relaxed line-clamp-3">
+          กระผมมีความสามารถพิเศษในการเล่นเครื่องดนตรีสากล ประเภท กลองชุด
+        </p>
+      </div>
+
+      <div class="flex-shrink-0 hidden md:block">
+        <img src="./img/andadrum.jpg" class="h-32 w-32 object-cover"
+          alt="การเขียนโปรแกรม">
+      </div>
+
+      
+    </div>
+
+    <p class="text-neutral-400 text-center mt-8">&copy; 2026 Khachenchai Jaikla</p>
+  </main>
+</body>
+
 </html>

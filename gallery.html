@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+    <nav>
+        <div
+            class="bg-sky-600 w-[90%] max-w-[840px] rounded-b-lg shadow-xl shadow-cyan-600/50 text-white mx-auto py-3 flex justify-evenly font-medium">
+            <a href="index.html" class="hover:underline hover:font-bold underline-offset-4">Home</a>
+            <a href="favorites.html" class="hover:underline hover:font-bold underline-offset-4">Favorites</a>
+            <a href="gallery.html" class="underline font-bold text-amber-400 underline-offset-4">Gallery</a>
+            <a href="contact.html" class="hover:underline hover:font-bold underline-offset-4">Contact</a>
+        </div>
+    </nav>
+    <main class="mx-auto max-w-[1260px] flex flex-col justify-center items-center p-4 mt-4">
+
+
+        <h2 class="text-center text-3xl font-semibold mt-8">My Gallery</h2>
+
+        <div class="flex flex-wrap items-start mt-8 gap-4">
+            <div class="w-full md:w-[18rem] border border-neutral-300 rounded-lg overflow-hidden">
+                <img src="./img/gallery/food.jpg" class="object-cover w-full" alt="">
+                <div class="p-4 ">
+                    <p class="text-neutral-500 text-xs line-clamp-3 font-medium">30 มิ.ย. 69</p>
+                    <h3 class="text-lg font-semibold leading-6">ข้าวราดแกงที่เพิ่งกินไป</h3>
+                    <p class="text-neutral-600 line-clamp-3 mt-1">ในเมนูจะประกอบไปด้วย ข้าว ไข่ดาว ซี่โครงหมูทอด
+                        น้ำพริกอ่อง และแกงจืด กินที่ใต้หอชาย 3</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[18rem] border border-neutral-300 rounded-lg overflow-hidden">
+                <img src="./img/gallery/rubnong.jpg" class="object-cover w-full" alt="">
+                <div class="p-4 ">
+                    <p class="text-neutral-500 text-xs line-clamp-3 font-medium">20 มิ.ย. 69</p>
+                    <h3 class="text-lg font-semibold leading-6">บรรยากาศกิจกรรมรับน้องสานสัมพันธ์ วิศวะ 69</h3>
+                    <p class="text-neutral-600 line-clamp-3 mt-1">เป็นบรรยากาศมุมมองหนึ่งที่ผมในฐานะ สตาฟฐานเจ้อคอม ได้ร่วมกิจกรรมสนุก ๆ และดูแลรุ่นน้องไปด้วย</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[18rem] border border-neutral-300 rounded-lg overflow-hidden">
+                <img src="./img/gallery/sea.jpg" class="object-cover w-full" alt="">
+                <div class="p-4 ">
+                    <p class="text-neutral-500 text-xs line-clamp-3 font-medium">26 เม.ย. 69</p>
+                    <h3 class="text-lg font-semibold">ทะเลท่าเรืออ่าวมะขาม จ.ภูเก็ต</h3>
+                    <p class="text-neutral-600 line-clamp-3 mt-1">ตอนปิดเทอม 2/2568 ผมได้กลับบ้าน (จ.ภูเก็ต) และได้ไปเที่ยวแถวท่าเรือ อ่าวมะขาม กับครอบครัว</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[18rem] border border-neutral-300 rounded-lg overflow-hidden">
+                <img src="./img/gallery/mydrums.jpg" class="object-cover w-full" alt="">
+                <div class="p-4 ">
+                    <p class="text-neutral-500 text-xs line-clamp-3 font-medium">8 มิ.ย. 69</p>
+                    <h3 class="text-lg font-semibold leading-6">"น้องนิล" กลองของผม</h3>
+                    <p class="text-neutral-600 line-clamp-3 mt-1">กลองชุดที่โตขึ้นมาด้วยกันกับผมตั้งแต่เด็ก ผมรักกลองชุดนี้ที่สุดในชีวิต</p>
+                </div>
+            </div>
+            <div class="w-full md:w-[18rem] border border-neutral-300 rounded-lg overflow-hidden">
+                <img src="./img/gallery/m4.jpg" class="object-cover w-full" alt="">
+                <div class="p-4 ">
+                    <p class="text-neutral-500 text-xs line-clamp-3 font-medium">26 มิ.ย. 65</p>
+                    <h3 class="text-lg font-semibold leading-6">รูปผมตอน ม.4</h3>
+                    <p class="text-neutral-600 line-clamp-3 mt-1">ผมชอบร่างนี้มาก อยากกลับไปผอม</p>
+                </div>
+            </div>
+        </div>
+
+
+        <p class="text-neutral-400 text-center mt-8">&copy; 2026 Khachenchai Jaikla</p>
+    </main>
+</body>
+
+</html>
